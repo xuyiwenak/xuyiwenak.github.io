@@ -63,8 +63,8 @@ nav:
     - {title: 关于我, description: about, url: '/about'}      
 # 增加github在初始页面的按钮
 github_button:
-   star_src: https://ghbtns.com/github-btn.html?user=xuyiwenak&repo=xuyiwenak.github.io&type=star&count=true&size=large
-   follow_src: https://ghbtns.com/github-btn.html?user=xuyiwenak&type=follow&count=true&size=large
+   star_src: https://ghbtns.com/github-btn.html?user=xuyiwenak&repo=xuyiwenak.github.io&type=star&count=true
+   follow_src: https://ghbtns.com/github-btn.html?user=xuyiwenak&type=follow&count=true
 
 # Pagination
 gems: [jekyll-paginate,jekyll-sitemap]

@@ -30,15 +30,13 @@
         {% endif %}
         <hr class="panel-cover__divider" />
         <p class="panel-cover__description">{{ site.description }}</p>
-        <hr class="panel-cover__divider panel-cover__divider--secondary" />
-        
         {% if site.welcome_message %}
         <p class="panel-cover__description">{{ site.welcome_message }}</p>
         {% endif %}
         <hr class="panel-cover__divider" />
         {% if site.github_button %}
-        <iframe src={{site.github_button.star_src}} frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
-        <iframe src={{site.github_button.follow_src}} frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+        <iframe src={{site.github_button.star_src}} frameborder="0" scrolling="0" width="90px" height="20px"></iframe>
+        <iframe src={{site.github_button.follow_src}} frameborder="0" scrolling="0" width="90px" height="20px"></iframe>
         {% endif %}
         <hr class="panel-cover__divider" />
         <div class="navigation-wrapper">
